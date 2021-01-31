@@ -27,11 +27,11 @@ Dokumentenarchiv  von Flatex herunterzuladen.
       Dies erlaubt es Selenium sich auf einen *bereits geöffneten* Chrome-Browser zu verbinden, anstatt einen neuen 
       zu starten
     - Das Browserfenster maximieren, um zu gewährleisten, dass alle HTML-Elemente angezeigt werden
-5. Vorbereitungen im Flatex Konto vornehmen
+7. Vorbereitungen im Flatex Konto vornehmen
     - Flatex (https://www.flatex.de) im eben geöffneten Chrome-Browser aufrufen
     - manuell ins Flatex Konto einloggen 
     - über das Menü "Post" ins "Dokumentenarchiv" navigieren
-6. Manuelle Filtereinstellungen im Dokumentenarchiv vornehmen
+8. Manuelle Filtereinstellungen im Dokumentenarchiv vornehmen
     - Die Filter entsprechend anpassen, sodass die gewünschten Dokumente aufgelistet werden (das Programm kann nur die 
       momentan sichtbaren Dokumente in der Liste herunterladen)
     - Achtung: Flatex stellt maximal 100 Dokumente auf einmal dar (eine entsprechende Warnung wird über der Liste 
@@ -39,7 +39,8 @@ Dokumentenarchiv  von Flatex herunterzuladen.
     - das bedeutet, man muss den Filter (gewünschtes Datum, gewünschte Dokumentenart, etc.) entsprechend anpassen, 
       sodass maximal 100 Dokumente auf einmal angezeigt werden. Ebenfalls wichtig ist es, den Filter auf "Alle" und 
       nicht nur auf "Gelesene" oder "Ungelesene" zu stellen, da sonst nicht alle Dokumente angezeigt werden.
-7. Sobald der Filter eingestellt ist und die gewünschten Dokumente in der Liste angezeit werden, kann das Skript über 
+9. Sobald der Filter eingestellt ist und die gewünschten Dokumente in der Liste angezeit werden, kann das Skript über 
    die Kommandozeile gestartet werden.
-    - Befehl: `python flatex.py --port 9999`
+    - Befehl: `python flatex.py 9999`
+    - Der übergebene Port (hier bspw. `9999`) muss dem Debugging-Port entsprechen, mit dem der Chrome-Browser gestartet wurde (siehe Punkt 6)
     - Der Download lief bei mir schneller, wenn das Browserfenster währenddessen im Vordergrund lief
