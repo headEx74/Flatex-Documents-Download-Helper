@@ -41,5 +41,5 @@ Dokumentenarchiv  von Flatex herunterzuladen.
       nicht nur auf "Gelesene" oder "Ungelesene" zu stellen, da sonst nicht alle Dokumente angezeigt werden.
 7. Sobald der Filter eingestellt ist und die gewünschten Dokumente in der Liste angezeit werden, kann das Skript über 
    die Kommandozeile gestartet werden.
-    - Befehl: `python flatex_documents_download_helper.py --port 9999`
+    - Befehl: `python flatex.py --port 9999`
     - Der Download lief bei mir schneller, wenn das Browserfenster währenddessen im Vordergrund lief
