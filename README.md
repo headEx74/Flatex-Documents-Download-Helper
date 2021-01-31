@@ -3,11 +3,11 @@
 Das Skript erlaubt es mittels per Selenium gesteuerten Chrome-Browser PDF-Dokumente aus dem 
 Dokumentenarchiv  von Flatex herunterzuladen. 
 
-###Entwickelungsumgebung
+### Entwicklungs- und Testumgebung
 
 - Windows 10 (64 Bit) Version 20H2
 - Python 3.8.3
-- Chrome Browser Version 88.0.4324.104.
+- Chrome Browser Version 88.0.4324.104
 
 ### Anleitung
 
