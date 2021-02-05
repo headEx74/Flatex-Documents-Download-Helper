@@ -47,7 +47,6 @@ class FlatexBrowser:
             bt_download =  WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH, '//button[@id="download"]')))
             bt_download.click()
             self.logger.info(f"[{document_counter}/{len(document_ids)}]\t{document_title} - {self.driver.title}")
-            self.driver.close()
             self.driver.switch_to.window(self.driver.window_handles[0])
 
 if __name__ == '__main__':
